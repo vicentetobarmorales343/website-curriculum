@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Vicente Tobar Morales</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      background: #fff;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 40px 60px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 3px solid #0077cc;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0;
+      color: #0077cc;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      color: #555;
+      font-weight: 500;
+      margin: 5px 0 10px;
+    }
+
+    .contacto {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      color: #0077cc;
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-size: 1.1em;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .perfil p {
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>VICENTE TOBAR MORALES</h1>
+      <h2>INGENIERO EN INFORMÁTICA</h2>
+      <p class="contacto">
+        Teléfono: +56 9 5372 1636 |
+        Correo: <a href="mailto:vatobarm@gmail.com">vatobarm@gmail.com</a> |
+        Dirección: Parral 2338, Conchalí
+      </p>
+    </header>
+
+    <section class="perfil">
+      <p>
+        Estudiante de Ingeniería en Informática en su último semestre, con experiencia académica en el desarrollo
+        de soluciones tecnológicas y análisis de datos. Busco incorporarme a un equipo donde pueda aplicar mis
+        conocimientos y adquirir experiencia práctica en el sector.
+      </p>
+    </section>
+
+    <section class="educacion">
+      <h3>EDUCACIÓN</h3>
+      <p><strong>Ingeniería en Informática</strong><br>
+        IP Inacap, Sede Renca<br>
+        Marzo 2022 - Actualidad
+      </p>
+      <p>Aprendizaje sobre arquitectura y almacenamiento de datos, inteligencia de negocios e ingeniería de software.</p>
+    </section>
+
+    <section class="conocimientos">
+      <h3>CONOCIMIENTOS TÉCNICOS</h3>
+      <ul>
+        <li>Programación: Python y JavaScript.</li>
+        <li>Desarrollo web: HTML5, CSS3, Node.js, Django.</li>
+        <li>Bases de datos: MySQL, Supabase.</li>
+        <li>Gestión de proyectos de software.</li>
+        <li>Metodologías ágiles: SCRUM, Kanban.</li>
+        <li>Control de versiones con Git y GitHub.</li>
+        <li>Desarrollo de API REST.</li>
+      </ul>
+    </section>
+
+    <section class="herramientas">
+      <h3>HERRAMIENTAS</h3>
+      <ul>
+        <li>Excel intermedio.</li>
+        <li>Power BI básico.</li>
+        <li>Servicios en la nube: GCP, AWS (básico).</li>
+        <li>Visual Studio Code.</li>
+        <li>SSMS básico (SQL Server Management Studio).</li>
+        <li>Figma (diseño de interfaces).</li>
+      </ul>
+    </section>
+
+    <section class="logros">
+      <h3>LOGROS</h3>
+      <ul>
+        <li>Reconocimiento por rendimiento académico sobresaliente (sexto semestre).</li>
+        <li>Finalista en Go! Innova Inacap 2023.</li>
+      </ul>
+    </section>
+
+    <section class="habilidades">
+      <h3>HABILIDADES BLANDAS</h3>
+      <ul>
+        <li>Trabajo en equipo.</li>
+        <li>Resolución de problemas.</li>
+        <li>Aprendizaje autónomo.</li>
+        <li>Adaptabilidad.</li>
+      </ul>
+    </section>
+
+    <section class="idiomas">
+      <h3>IDIOMAS</h3>
+      <p>Manejo de Inglés Intermedio-Avanzado (C1, Oxford Placement Test)</p>
+    </section>
+  </div>
+  <div class="text-center my-6">
+    <button onclick="window.print()" class="bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800">
+      Descargar CV en PDF
+    </button>
+    <p class="text-sm text-gray-500 mt-2">
+      Usa la opción “Imprimir” del navegador y selecciona “Guardar como PDF”.
+    </p>
+  </div>
+</body>
+</html>
